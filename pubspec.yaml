@@ -1,0 +1,22 @@
+name: gcm_cryptor
+description: "A powerful Flutter package for AES-GCM encryption and decryption with secure key generation, authentication tags, and Base64 support."
+version: 1.0.0
+homepage: https://github.com/Dipak677/gcm_cryptor
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.6  
+  pointycastle: ^3.9.1
+  convert: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
